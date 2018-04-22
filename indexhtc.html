@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Тестовое задание по направлению Frontend</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<style>
+	body { background: url(img/background.png); }
+	</style>
+<div class="containerTabs">
+    <div class="tabs">
+        <span class="tab">Профиль</span>
+        <span class="tab">Друзья пользователя</span>
+    </div>
+    
+    <div class="tab_content">
+        <div class="tab_item profile">
+            <div class="profile__left">
+                <div class="profile__photo">
+                 <img src="img/profile_photo.jpg" alt="image">
+                </div>
+                <button class="button__add">Добавить в друзья</button>
+            </div>
+            <div class="profile__right">
+                <div class="profile__data">
+                 <p class="profile__data-name">Виталя Гора</p>
+                 <p class="profile__data-city">г. Нижние Шахты</p>
+                    <div class="profile__data-info">
+                        <div class="info-left">
+                            <p>Семейное положение</p>
+                            <p>Телефон</p>
+                            <p>E-mail</p>
+                        </div>
+                        <div class="info-right">
+                            <p class="marital-status">холост</p>
+                            <p class="tel">+7(440)554-32-12</p>
+                            <p class="email">vitalya@gora.ru</p>
+                        </div>
+                    </div>
+                    <div class="profile__data-interests">
+                        <p>Интересы</p>
+                        <button class="interests__button interests__button-music">музыка</button>
+                        <button class="interests__button interests__button-computer">компьютеры</button>
+                        <button class="interests__button interests__button-radio">радио</button>
+                    </div>
+                </div>
+            </div>
+            
+                <div class="change-info">
+                    <input type="text" class="change-field">
+                    <button class="change-button">Изменить</button>
+                </div>
+        </div>
+        
+        <div class="tab_item">
+            <div class="friends">
+               
+                <div class="friends__user">
+                    <div class="user__photo">
+                        <img src="img/friends/1.png" alt="лев">
+                    </div>
+                    <div class="user__info">
+                        <p class="user__name">Лев Бронштейн</p>
+                        <p class="user__city">г. Ханты-Мансийск</p>
+                        <p class="user__status">Online</p>
+                    </div>
+                </div>
+                               
+                <div class="friends__user">
+                    <div class="user__photo">
+                       <img src="img/friends/2.png" alt="чёрный кот">
+                    </div>
+                    <div class="user__info">
+                        <p class="user__name">Находка Капитал</p>
+                        <p class="user__city">г. Усть-Бельск</p>
+                        <p class="user__status"></p>
+                    </div>
+                </div>
+                
+                <div class="friends__user">
+                    <div class="user__photo">
+                        <img src="img/friends/3.png" alt="тигр">
+                    </div>
+                    <div class="user__info">
+                        <p class="user__name">Яндекс Петренко</p>
+                        <p class="user__city">г. Пермь</p>
+                        <p class="user__status"></p>
+                    </div>
+                </div>
+                     
+                <div class="friends__user">
+                    <div class="user__photo">
+                        <img src="img/friends/4.png" alt="бенгальский кот">
+                    </div>
+                    <div class="user__info">
+                        <p class="user__name">Успех Возможностей</p>
+                        <p class="user__city">г. Радонеж</p>
+                        <p class="user__status">Online</p>
+                    </div>
+                </div>
+                     
+                <div class="friends__user">
+                    <div class="user__photo">
+                        <img src="img/friends/5.png" alt="серый кот">
+                    </div>
+                    <div class="user__info">
+                        <p class="user__name">Инна Нашлась</p>
+                        <p class="user__city">г. Омск</p>
+                        <p class="user__status">Online</p>
+                    </div>
+                </div>
+                     
+                <div class="friends__user">
+                    <div class="user__photo">
+                        <img src="img/friends/6.png" alt="белый кот">
+                    </div>
+                    <div class="user__info">
+                        <p class="user__name">Алла Подольская</p>
+                        <p class="user__city">г. Петропавловск-Камчатский</p>
+                        <p class="user__status">Online</p>
+                    </div>
+                </div>
+                      
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
